@@ -1,0 +1,50 @@
+{
+  "n": 4000,
+  "step": null,
+  "frac_cells_digit_maxprob_ge_0.9": 0.9767500758171082,
+  "waste_rate_any_cell_lt_0.5": 0.003750000149011612,
+  "brightness_agree_all": 1.0,
+  "brightness_agree_both_clear": 1.0,
+  "frac_both_brightness_clear": 1.0,
+  "thickness_agree_all": 0.9982500672340393,
+  "thickness_agree_both_clear": 0.9992465972900391,
+  "frac_both_thickness_clear": 0.9955000281333923,
+  "both_style_agree_all": 0.9982500672340393,
+  "style_distribution_left_cell": {
+    "bright-thin": 0.23800000548362732,
+    "dark-thin": 0.27525001764297485,
+    "bright-thick": 0.21625001728534698,
+    "dark-thick": 0.2705000042915344
+  },
+  "style_distribution_consistent_images": {
+    "bright-thin": 0.23841722309589386,
+    "dark-thin": 0.27548208832740784,
+    "bright-thick": 0.21562734246253967,
+    "dark-thick": 0.27047333121299744
+  },
+  "same_digit_frac_valid": 0.18293601274490356,
+  "target_1_3_frac_valid": 0.04617314785718918,
+  "digit_marginal_left": [
+    0.20602257549762726,
+    0.20401506125926971,
+    0.1887076497077942,
+    0.1947302371263504,
+    0.20652446150779724
+  ],
+  "digit_marginal_right": [
+    0.20652446150779724,
+    0.20677541196346283,
+    0.18368883430957794,
+    0.20250940322875977,
+    0.20050187408924103
+  ],
+  "acceptance": {
+    "cells_ge_0.9_about_90pct": true,
+    "waste_low(<2%)": true,
+    "brightness_agree_ge_95": true,
+    "thickness_agree_ge_95": true,
+    "styles_about_25pct(20-30)": true,
+    "same_digit_about_20pct(16-24)": true
+  },
+  "acceptance_pass": true
+}

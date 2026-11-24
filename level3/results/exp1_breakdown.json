@@ -1,0 +1,310 @@
+{
+ "0": {
+  "style_both_same": {
+   "n": 1003,
+   "digits_both_kept": {
+    "p": 0.6071784496307373,
+    "se": 0.015420745176202847,
+    "n": 1003
+   },
+   "left_kept": {
+    "p": 0.7726819515228271,
+    "se": 0.01323326096344068,
+    "n": 1003
+   },
+   "right_kept": {
+    "p": 0.7617148756980896,
+    "se": 0.013452227939220598,
+    "n": 1003
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5747126340866089,
+    "se": 0.026501898777552404,
+    "n": 348
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.8778625726699829,
+    "se": 0.012794313871524602,
+    "n": 655
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.5635837912559509,
+    "se": 0.026661933066175102,
+    "n": 346
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.8660578727722168,
+    "se": 0.01328768634847326,
+    "n": 657
+   }
+  },
+  "only_brightness_differs": {
+   "n": 972,
+   "digits_both_kept": {
+    "p": 0.5257201194763184,
+    "se": 0.016016275012686952,
+    "n": 972
+   },
+   "left_kept": {
+    "p": 0.7314814329147339,
+    "se": 0.01421528860991252,
+    "n": 972
+   },
+   "right_kept": {
+    "p": 0.7273662090301514,
+    "se": 0.01428345495256495,
+    "n": 972
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5948905348777771,
+    "se": 0.020970773300705417,
+    "n": 548
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.9080188870429993,
+    "se": 0.014035046078813406,
+    "n": 424
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.6282722353935242,
+    "se": 0.02018873571970566,
+    "n": 573
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.8696742057800293,
+    "se": 0.01685415706816741,
+    "n": 399
+   }
+  },
+  "only_thickness_differs": {
+   "n": 1005,
+   "digits_both_kept": {
+    "p": 0.3990049958229065,
+    "se": 0.015446908242751007,
+    "n": 1005
+   },
+   "left_kept": {
+    "p": 0.6666666865348816,
+    "se": 0.014869991003268867,
+    "n": 1005
+   },
+   "right_kept": {
+    "p": 0.646766185760498,
+    "se": 0.015077236860927549,
+    "n": 1005
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5311004519462585,
+    "se": 0.01992941139168542,
+    "n": 627
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.8915343880653381,
+    "se": 0.015994445378600997,
+    "n": 378
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.5093750357627869,
+    "se": 0.019760760862140344,
+    "n": 640
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.8876712322235107,
+    "se": 0.016528183957978573,
+    "n": 365
+   }
+  },
+  "both_differ": {
+   "n": 1020,
+   "digits_both_kept": {
+    "p": 0.34607845544815063,
+    "se": 0.014895326221926818,
+    "n": 1020
+   },
+   "left_kept": {
+    "p": 0.5980392694473267,
+    "se": 0.015351703668828551,
+    "n": 1020
+   },
+   "right_kept": {
+    "p": 0.6362745761871338,
+    "se": 0.015062915111358011,
+    "n": 1020
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5,
+    "se": 0.018281810603178267,
+    "n": 748
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.8676470518112183,
+    "se": 0.02054725948651842,
+    "n": 272
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.5156695246696472,
+    "se": 0.018862014542137016,
+    "n": 702
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.902515709400177,
+    "se": 0.016633404263036045,
+    "n": 318
+   }
+  }
+ },
+ "50": {
+  "style_both_same": {
+   "n": 1003,
+   "digits_both_kept": {
+    "p": 0.814556360244751,
+    "se": 0.012272020565631587,
+    "n": 1003
+   },
+   "left_kept": {
+    "p": 0.9032901525497437,
+    "se": 0.009332511214015514,
+    "n": 1003
+   },
+   "right_kept": {
+    "p": 0.89531409740448,
+    "se": 0.009666769114752225,
+    "n": 1003
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.6513761281967163,
+    "se": 0.04564374087260605,
+    "n": 109
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.9340044856071472,
+    "se": 0.008303533281590059,
+    "n": 894
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.6111111044883728,
+    "se": 0.04690951913775011,
+    "n": 108
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.929608941078186,
+    "se": 0.008550615499141991,
+    "n": 895
+   }
+  },
+  "only_brightness_differs": {
+   "n": 972,
+   "digits_both_kept": {
+    "p": 0.645061731338501,
+    "se": 0.015347721848782954,
+    "n": 972
+   },
+   "left_kept": {
+    "p": 0.806584358215332,
+    "se": 0.012668860730123787,
+    "n": 972
+   },
+   "right_kept": {
+    "p": 0.8045267462730408,
+    "se": 0.012719814619525625,
+    "n": 972
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.6694386601448059,
+    "se": 0.021449090741930715,
+    "n": 481
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.9409369230270386,
+    "se": 0.010638920009298475,
+    "n": 491
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.7107750773429871,
+    "se": 0.019713154080502227,
+    "n": 529
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.9164785742759705,
+    "se": 0.013144928999243698,
+    "n": 443
+   }
+  },
+  "only_thickness_differs": {
+   "n": 1005,
+   "digits_both_kept": {
+    "p": 0.4517413079738617,
+    "se": 0.015698372658441696,
+    "n": 1005
+   },
+   "left_kept": {
+    "p": 0.700497567653656,
+    "se": 0.014448423466304528,
+    "n": 1005
+   },
+   "right_kept": {
+    "p": 0.6935323476791382,
+    "se": 0.014542619827409994,
+    "n": 1005
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5460869669914246,
+    "se": 0.020762675184656066,
+    "n": 575
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.9069767594337463,
+    "se": 0.01400746622181771,
+    "n": 430
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.5251299738883972,
+    "se": 0.02078896539442217,
+    "n": 577
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.9205607175827026,
+    "se": 0.013071396576981188,
+    "n": 428
+   }
+  },
+  "both_differ": {
+   "n": 1020,
+   "digits_both_kept": {
+    "p": 0.3980392515659332,
+    "se": 0.015326639814988705,
+    "n": 1020
+   },
+   "left_kept": {
+    "p": 0.6529412269592285,
+    "se": 0.014905222834341599,
+    "n": 1020
+   },
+   "right_kept": {
+    "p": 0.6754902601242065,
+    "se": 0.014659640761506065,
+    "n": 1020
+   },
+   "left_digit_kept_given_left_style_changed": {
+    "p": 0.5380359888076782,
+    "se": 0.018541317308052117,
+    "n": 723
+   },
+   "left_digit_kept_given_left_style_unchanged": {
+    "p": 0.932659924030304,
+    "se": 0.014541869207942785,
+    "n": 297
+   },
+   "right_digit_kept_given_right_style_changed": {
+    "p": 0.539375901222229,
+    "se": 0.019213724756633757,
+    "n": 673
+   },
+   "right_digit_kept_given_right_style_unchanged": {
+    "p": 0.939481258392334,
+    "se": 0.012800421408981943,
+    "n": 347
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "steps": 35000,
+  "batch": 128,
+  "lr": 0.0003,
+  "warmup": 1000,
+  "ema": 0.9995,
+  "seed": 0,
+  "ckpt_every": 5000,
+  "bench": 0,
+  "train_seconds_total": 5963.5,
+  "resumed_from_step": 0
+}

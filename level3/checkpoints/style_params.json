@@ -1,0 +1,13 @@
+{
+  "DARK_FACTOR": 0.5,
+  "DILATE_K": 5,
+  "TOPK": 20,
+  "BRIGHT_THRESH": 0.75,
+  "BRIGHT_CLEAR": [
+    0.65,
+    0.85
+  ],
+  "THICK_CLEAR": 0.9,
+  "thin": "original MNIST (no erosion)",
+  "thick": "grey dilation, max-pool 5x5"
+}

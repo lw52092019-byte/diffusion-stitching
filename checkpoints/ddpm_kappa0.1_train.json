@@ -1,0 +1,13 @@
+{
+  "kappa": 0.1,
+  "steps": 35000,
+  "batch": 128,
+  "lr": 0.0003,
+  "warmup": 1000,
+  "ema": 0.9995,
+  "seed": 0,
+  "bench": 0,
+  "ckpt_every": 3000,
+  "params": 3862081,
+  "train_seconds": 4204.1
+}

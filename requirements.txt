@@ -1,0 +1,8 @@
+# Install PyTorch and torchvision for your CUDA version first (https://pytorch.org).
+# The experiments used Python 3.12 and torch 2.11 (CUDA 12.8 build); other package
+# versions were not pinned at the time.
+torch
+torchvision
+diffusers
+numpy
+matplotlib

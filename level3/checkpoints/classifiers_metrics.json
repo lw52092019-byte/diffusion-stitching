@@ -1,0 +1,87 @@
+{
+  "digit_judge": {
+    "arch": "JudgeCNN",
+    "params": 467173,
+    "seed": 0,
+    "epochs": 12,
+    "lr": 0.002,
+    "shift": 2.0,
+    "rot": 0.0,
+    "scale": 0.0,
+    "target": "digit",
+    "train_seconds": null
+  },
+  "digit_evaluator": {
+    "arch": "EvalResNet",
+    "params": 855701,
+    "seed": 1,
+    "epochs": 15,
+    "lr": 0.002,
+    "shift": 2.0,
+    "rot": 10.0,
+    "scale": 0.1,
+    "target": "digit",
+    "train_seconds": null
+  },
+  "thick_clf": {
+    "arch": "ThickCNN",
+    "params": 14114,
+    "seed": 2,
+    "epochs": 6,
+    "lr": 0.002,
+    "shift": 2.0,
+    "rot": 10.0,
+    "scale": 0.1,
+    "target": "thick",
+    "train_seconds": null
+  },
+  "test_per_style": {
+    "bright-thin": {
+      "digit_judge_acc": 0.9982486963272095,
+      "digit_judge_frac_maxprob_ge_0.9": 0.9968866109848022,
+      "digit_evaluator_acc": 0.9994162321090698,
+      "digit_evaluator_frac_maxprob_ge_0.9": 0.9963028430938721,
+      "thickness_acc": 0.9986379146575928,
+      "thickness_clear_frac": 0.9951352477073669,
+      "brightness_acc": 0.9998054504394531,
+      "brightness_clear_frac": 0.9988324642181396
+    },
+    "dark-thin": {
+      "digit_judge_acc": 0.9982486963272095,
+      "digit_judge_frac_maxprob_ge_0.9": 0.9949406981468201,
+      "digit_evaluator_acc": 0.9996108412742615,
+      "digit_evaluator_frac_maxprob_ge_0.9": 0.9966920018196106,
+      "thickness_acc": 0.9986379146575928,
+      "thickness_clear_frac": 0.9951352477073669,
+      "brightness_acc": 1.0,
+      "brightness_clear_frac": 1.0
+    },
+    "bright-thick": {
+      "digit_judge_acc": 0.9972757697105408,
+      "digit_judge_frac_maxprob_ge_0.9": 0.990075945854187,
+      "digit_evaluator_acc": 0.9986379146575928,
+      "digit_evaluator_frac_maxprob_ge_0.9": 0.9953298568725586,
+      "thickness_acc": 0.9998054504394531,
+      "thickness_clear_frac": 0.9982486963272095,
+      "brightness_acc": 1.0,
+      "brightness_clear_frac": 1.0
+    },
+    "dark-thick": {
+      "digit_judge_acc": 0.996497392654419,
+      "digit_judge_frac_maxprob_ge_0.9": 0.9863787293434143,
+      "digit_evaluator_acc": 0.9980541467666626,
+      "digit_evaluator_frac_maxprob_ge_0.9": 0.9941623210906982,
+      "thickness_acc": 0.9998054504394531,
+      "thickness_clear_frac": 0.9982486963272095,
+      "brightness_acc": 1.0,
+      "brightness_clear_frac": 1.0
+    }
+  },
+  "min_over_styles": {
+    "digit_judge_acc": 0.996497392654419,
+    "digit_evaluator_acc": 0.9980541467666626,
+    "thickness_acc": 0.9986379146575928,
+    "brightness_acc": 0.9998054504394531
+  },
+  "acceptance_pass": true
+}
